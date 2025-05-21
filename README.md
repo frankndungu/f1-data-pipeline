@@ -2,17 +2,6 @@
 
 This project demonstrates a basic ETL (Extract, Transform, Load) pipeline for Formula 1 race results from the 2025 season. It takes raw race data in CSV format, performs cleaning and transformation using Python and pandas, and outputs a structured JSON file ready for analysis, dashboards, or API consumption.
 
-## Project Structure
-
-f1-data-pipeline/
-├── raw_data/
-│ └── f1_race_results_2025.csv
-├── cleaned_data/
-│ └── f1_cleaned.json
-├── pipeline.py
-├── requirements.txt
-└── README.md
-
 ## Features
 
 - Cleans and standardizes raw F1 race result data
@@ -60,7 +49,6 @@ python pipeline.py
     "IsWin": true,
     "IsPodium": true
   },
-  ...
 ]
 ```
 
